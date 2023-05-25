@@ -9,5 +9,9 @@ package com.mycompany.garciarodriguez;
  * @author garci
  */
 public class Garcia {
-    
+    public int sumaNumeros(int num1, int num2){
+        int resultado = num1 + num2;
+        return resultado;
+    }
+       
 }

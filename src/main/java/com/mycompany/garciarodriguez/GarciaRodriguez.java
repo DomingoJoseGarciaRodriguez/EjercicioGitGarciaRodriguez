@@ -9,6 +9,9 @@ package com.mycompany.garciarodriguez;
 public class GarciaRodriguez {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Garcia g = new Garcia();
+        System.out.println("Resultado suma: " + g.sumaNumeros(2, 4));
+        Rodriguez r = new Rodriguez();
+        System.out.println("Resultado multiplicacion: " + r.multiplicaNumeros(4, 5));
     }
 }
